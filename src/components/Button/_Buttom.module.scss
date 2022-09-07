@@ -1,0 +1,17 @@
+@import "../App/variables.scss";
+
+.buttonWrapper {
+  .button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background: $green;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    &:hover {
+      background: white;
+      border: 1px solid $green;
+      color: $green;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+@import "../App/variables.scss";
+
+.navigationsWrapper {
+  display: flex;
+  align-items: center;
+
+  .navigations_item {
+      padding: 10px 20px;
+      text-decoration: none;
+      color: black;
+
+    &:hover {
+      border-bottom: 1px solid $green;
+      color: $green
+    }
+  }
+}

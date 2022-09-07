@@ -1,0 +1,18 @@
+.scrollArrowWrapper {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
+  .scrollArrowImg {
+    max-height: 200px;
+    margin-bottom: 15px;
+  }
+  .scrollArrowText {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}

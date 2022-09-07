@@ -1,0 +1,23 @@
+@import "../App/mixins";
+@import "../App/variables";
+
+.mainContentInfoWrapper {
+  max-width: 452px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainContentInfoH1 {
+  @include Roboto(500, 48px, 56px);
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+.mainContentInfoP {
+  @include Roboto(400, 18px, 30px);
+}
+
+.highlight {
+  color: $green;
+}
