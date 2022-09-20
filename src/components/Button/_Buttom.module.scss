@@ -1,6 +1,7 @@
 @import "../App/variables.scss";
 
 .buttonWrapper {
+  position: relative;
   .button {
     cursor: pointer;
     padding: 10px 20px;

@@ -8,10 +8,12 @@ class Header extends React.Component {
     constructor() {
         super();
         this.state = {
-            buttonLabel: "Log in"
+            buttonLabel: "Log in",
         }
     }
+
     render() {
+
         return (
             <div className={classes.headerWrapper}>
                 <Logo />

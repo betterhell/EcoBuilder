@@ -1,0 +1,19 @@
+@import "../App/mixins";
+
+.aboutUsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  background: rgba(231, 255, 237, 1);
+
+  .aboutUsLabel {
+    margin: 48px 0;
+    @include Roboto(500, 28px, 30px)
+  }
+
+  .leadersLabel {
+    margin: 48px 0;
+  }
+}

@@ -1,9 +1,7 @@
 .scrollArrowWrapper {
-
   display: flex;
   flex-direction: column;
-  justify-content: end;
-
+  justify-content: flex-end;
   .scrollArrowImg {
     max-height: 200px;
     margin-bottom: 15px;

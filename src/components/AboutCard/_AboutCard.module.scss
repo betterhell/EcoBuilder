@@ -1,0 +1,32 @@
+@import "../App/variables.scss";
+@import "../App/mixins";
+
+.aboutCardWrapper {
+  max-width: 1040px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  .cardWrapper {
+    max-width: 306px;
+    border: 2px solid $turquoise;
+    padding: 12px;
+    border-radius: 4px;
+
+     .cardHeader {
+      display: flex;
+       @include Roboto(500, 20px, 23px);
+
+       img {
+         margin-right: 10px;
+       }
+     }
+
+    .cardDesc {
+      @include Roboto(400, 16px, 24px);
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

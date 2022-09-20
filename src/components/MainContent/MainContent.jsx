@@ -7,11 +7,10 @@ import ScrollArrow from "../ScrollArrow/ScrollArrow";
 
 class MainContent extends React.Component {
     render() {
-
         return (
             <div className={classes.mainContentWrapper}>
               <MainContentInfo />
-              <img className={classes.mainContentImg} src={mainImg} alt="Main Image" />
+              <img className={classes.mainContentImg} src={mainImg} alt={mainImg} />
                 <ScrollArrow />
             </div>
         );
