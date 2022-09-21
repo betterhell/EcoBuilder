@@ -5,6 +5,7 @@ import MainContent from "../MainContent/MainContent";
 import Services from "../Services/Services";
 import AboutUs from "../AboutUs/AboutUs";
 import ContactUs from "../ContactUs/ContactUs";
+import Footer from "../Footer/Footer";
 
 class App extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
                 <Services />
                 <AboutUs />
                 <ContactUs />
+                <Footer />
             </div>
         );
     }

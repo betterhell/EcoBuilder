@@ -1,0 +1,18 @@
+.footerSocialsWrapper {
+  color: white;
+
+  a:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  a {
+    img {
+      height: 40px;
+      width: 40px;
+    }
+    &:hover {
+      opacity: 0.5;
+      transition: 0.3s;
+    }
+  }
+}

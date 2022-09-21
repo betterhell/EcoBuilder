@@ -9,17 +9,24 @@
 }
 
 .leader {
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 260px;
   height: 353px;
+
+  .leaderPhoto {
+    width: 100%;
+    max-width: 245px;
+  }
 }
 
 .leaderSocials {
   display: flex;
   align-items: center;
   justify-content: center;
+
 
   a:not(:last-child){
     margin-right: 24px;

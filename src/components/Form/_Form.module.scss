@@ -2,7 +2,7 @@
 @import "../App/mixins";
 
 .formWrapper {
-  width: 100%;
+  width: 682px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,10 +12,14 @@
     margin: 0 0 50px 0;
     @include Roboto(500, 28px, 30px)
   }
+  h2 {
+    margin: 0;
+  }
 }
 
 .formContainer {
-
+  padding: 0 15px;
+  width: 100%;
 
   form {
     display: flex;
@@ -24,13 +28,14 @@
 
     input {
       padding: 10px;
-      width: 682px;
+      width: 100%;
       height: 44px;
       border: 2px solid $green;
       border-radius: 4px;
       margin-bottom: 40px;
       text-indent: 0;
       transition: text-indent 0.3s ease;
+      @include Roboto(400, 20px, 28px);
 
       &:focus::placeholder {
         text-indent: 500px;
@@ -41,12 +46,13 @@
 
     textarea {
       padding: 10px;
-      width: 682px;
+      width: 100%;
       border: 2px solid $green;
       border-radius: 4px;
       margin-bottom: 40px;
       height: 120px;
       resize: none;
+      @include Roboto(400, 20px, 28px);
 
       &:focus::placeholder {
         opacity: 0;
@@ -55,7 +61,5 @@
 
     }
   }
-
-
 
 }

@@ -10,7 +10,10 @@
 }
 
 .serviceImg {
-  max-width: 470px;
+  img {
+    max-width: 470px;
+    width: 100%;
+  }
 }
 
 .serviceInfo {

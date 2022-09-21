@@ -13,7 +13,7 @@ class Leaders extends React.Component {
                       <p className={classes.leaderPost}>{leader.post}</p>
                       <div className={classes.leaderSocials}>
                             {leader.social.map((social, id) =>
-                                <a href={social.link}><img src={social.image} alt={social.image}/></a>
+                                <a key={id} href={social.link}><img src={social.image} alt={social.image}/></a>
                             )}
                       </div>
                   </div>

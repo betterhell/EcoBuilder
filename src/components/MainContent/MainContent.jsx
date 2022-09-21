@@ -10,7 +10,9 @@ class MainContent extends React.Component {
         return (
             <div className={classes.mainContentWrapper}>
               <MainContentInfo />
-              <img className={classes.mainContentImg} src={mainImg} alt={mainImg} />
+                <div className={classes.mainContentImg}>
+                    <img src={mainImg} alt={mainImg} />
+                </div>
                 <ScrollArrow />
             </div>
         );
