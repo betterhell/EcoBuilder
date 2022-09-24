@@ -1,7 +1,6 @@
 import React from 'react';
 import classes from "./_Navigations.module.scss"
 import {navList} from "./navList";
-import Button from "../Button/Button";
 
 class Navigations extends React.Component {
     constructor() {
