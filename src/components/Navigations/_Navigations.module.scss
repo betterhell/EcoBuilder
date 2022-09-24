@@ -9,9 +9,17 @@
       text-decoration: none;
       color: black;
 
+
     &:hover {
       border-bottom: 1px solid $green;
       color: $green
     }
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  .navigationsWrapper {
+    display: none;
   }
 }

@@ -19,3 +19,11 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .servicesWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+}

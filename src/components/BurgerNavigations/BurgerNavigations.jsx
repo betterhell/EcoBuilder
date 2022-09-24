@@ -1,28 +1,23 @@
 import React from 'react';
-import classes from "./_Navigations.module.scss"
-import {navList} from "./navList";
+import {navList} from "../Navigations/navList";
 import Button from "../Button/Button";
+import classes from "./_BurgerNavigations.module.scss"
 
-class Navigations extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            buttonLabel: "Log in",
-        }
-    }
+class BurgerNavigations extends React.Component {
     render() {
         return (
-            <div className={classes.navigationsWrapper}>
+            <div className={classes.burgerNavigationsWrapper}>
                 {navList.map((item, id) =>
                     <a
                         className={classes.navigations_item}
                         key={id}
                         href={item.path}>{item.label}</a>
-                   )
+                    )
                 }
+                <Button buttonLabel="Log in" />
             </div>
         );
     }
 }
 
-export default Navigations;
+export default BurgerNavigations;

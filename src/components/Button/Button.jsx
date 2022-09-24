@@ -7,12 +7,10 @@ class Button extends React.Component {
     }
 
     render() {
-        const buttonLabel = this.props.buttonLabel
-
         return (
             <div className={classes.buttonWrapper}>
                 <button
-                    className={classes.button}>{buttonLabel}</button>
+                    className={classes.button}>{this.props.buttonLabel}</button>
             </div>
         );
     }

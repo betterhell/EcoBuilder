@@ -34,3 +34,16 @@
     }
   }
 }
+
+@media screen and (max-width: 720px) {
+  .aboutCardWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .cardWrapper:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+}
