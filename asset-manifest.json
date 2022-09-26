@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/EcoBuilder_landing/static/css/main.bb1a7b5a.css",
+    "main.js": "/EcoBuilder_landing/static/js/main.417dd7cd.js",
+    "static/media/main.png": "/EcoBuilder_landing/static/media/main.73bd2d055f60d4658d5b.png",
+    "static/media/services3.png": "/EcoBuilder_landing/static/media/services3.efdbb111a255afd36224.png",
+    "static/media/services1.png": "/EcoBuilder_landing/static/media/services1.d45170188ecddd44a170.png",
+    "static/media/services2.png": "/EcoBuilder_landing/static/media/services2.4f7b4e64d9a8319c9547.png",
+    "static/media/member2.png": "/EcoBuilder_landing/static/media/member2.b3c80009d8840a71a624.png",
+    "static/media/member1.png": "/EcoBuilder_landing/static/media/member1.53dea4db00a90189a7ec.png",
+    "static/media/member3.png": "/EcoBuilder_landing/static/media/member3.c2f76de62d83ef3c67cc.png",
+    "static/media/mission.svg": "/EcoBuilder_landing/static/media/mission.d66feeba2dd5ca56057cfba21239d5ed.svg",
+    "static/media/vision.svg": "/EcoBuilder_landing/static/media/vision.5f42429a5997509eaf4f2ff70356137a.svg",
+    "static/media/InstagramFooter.svg": "/EcoBuilder_landing/static/media/InstagramFooter.6bd752eb9d593c30a2a2a2c25ee24841.svg",
+    "static/media/TwitterFooter.svg": "/EcoBuilder_landing/static/media/TwitterFooter.15dfb0f9f4eaa768d1cd1c31a4c6d746.svg",
+    "static/media/Twitter.svg": "/EcoBuilder_landing/static/media/Twitter.ae1eea2845a7e25ac107830bb1097e0d.svg",
+    "static/media/Linkedin.svg": "/EcoBuilder_landing/static/media/Linkedin.c97ec8d5c90e972c3cda17ce874e6cd9.svg",
+    "static/media/LinkedinFooter.svg": "/EcoBuilder_landing/static/media/LinkedinFooter.24c15dfa1557d63ccbafe657bdbad301.svg",
+    "static/media/FacebookFooter.svg": "/EcoBuilder_landing/static/media/FacebookFooter.50eb57a4fcee314969ca0417dd5d69c6.svg",
+    "index.html": "/EcoBuilder_landing/index.html",
+    "static/media/arrow.svg": "/EcoBuilder_landing/static/media/arrow.a8791b0de924813f4af6bc2dacebb56c.svg",
+    "main.bb1a7b5a.css.map": "/EcoBuilder_landing/static/css/main.bb1a7b5a.css.map",
+    "main.417dd7cd.js.map": "/EcoBuilder_landing/static/js/main.417dd7cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb1a7b5a.css",
+    "static/js/main.417dd7cd.js"
+  ]
+}
