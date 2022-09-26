@@ -20,6 +20,8 @@
 
 .formContainer {
   width: 100%;
+  display: flex;
+  justify-content: center;
 
   form {
     width: 100%;
@@ -71,7 +73,7 @@
         width: 100%;
 
         &:focus::placeholder {
-          text-indent: 500px;
+          text-indent: 400px;
           transition: text-indent 0.3s ease-out;
         }
       }

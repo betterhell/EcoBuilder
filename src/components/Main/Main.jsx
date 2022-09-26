@@ -1,16 +1,17 @@
 import React from 'react';
 import MainContent from "../MainContent/MainContent";
-import MainContentInfo from "../MainContentInfo/MainContentInfo";
 import Services from "../Services/Services";
 import ContactUs from "../ContactUs/ContactUs";
+import classes from "./_Main.module.scss"
+import AboutUs from "../AboutUs/AboutUs";
 
 class Main extends React.Component {
     render() {
         return (
-            <div>
+            <div className={classes.mainWrapper}>
                 <MainContent />
-                <MainContentInfo />
                 <Services />
+                <AboutUs />
                 <ContactUs />
             </div>
         );

@@ -13,15 +13,18 @@ class Header extends React.Component {
             buttonLabel: "Log in",
             width: 0,
             isOpen: false,
+            emailPlaceholder: "Введите свой email",
+            passwordPlaceholder: "Введите пароль"
         }
-        this.handleOpenBurgerMenu = this.handleOpenBurgerMenu.bind(this)
+        this.toggleBurgerMenu = this.toggleBurgerMenu.bind(this)
     }
 
-    handleOpenBurgerMenu() {
-      if (this.state.isOpen === false) {
+    toggleBurgerMenu() {
+      if (!this.state.isOpen) {
           this.setState({
               isOpen: true
           })
+      } else {
           this.setState({
               isOpen: false
           })
@@ -43,22 +46,15 @@ class Header extends React.Component {
     render() {
         const screenWidth = window.innerWidth
 
-        // function wideScreenContent(screenWidth) {
-        //     if (screenWidth > 720) {
-        //         return <Navigations /> && <Button buttonLabel={this.state.buttonLabel}/>
-        //     }
-        //     return <BurgerMenu isOpen={this.state.isOpen} toggleBurger={this.handleOpenBurgerMenu} />
-        // }
-
         return (
                 <div className={classes.headerWrapper}>
                     <Logo />
                         {screenWidth >= 720
                             ? <Navigations />
-                            : <BurgerMenu isOpen={this.state.isOpen} toggleBurger={this.handleOpenBurgerMenu} />
+                            : <BurgerMenu isOpen={this.state.isOpen} toggleBurger={() => this.toggleBurgerMenu()} />
                         }
                         {screenWidth >= 720
-                            ? <Button buttonLabel={this.state.buttonLabel} />
+                            ? <Button passwordPlaceholder={this.state.passwordPlaceholder} emailPlaceholder={this.state.emailPlaceholder} isOpen={this.state.isOpen} toggleModal={() => this.toggleBurgerMenu()}  buttonLabel={this.state.buttonLabel} />
                             : null}
                 </div>
         );

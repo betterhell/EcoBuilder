@@ -10,6 +10,8 @@ class Service extends React.Component {
             buttonLabel: "Learn more"
         }
     }
+
+
     render() {
         return (
             <div className={classes.serviceWrapper}>
