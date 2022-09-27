@@ -13,9 +13,17 @@ class BurgerMenu extends React.Component {
 
         return (
             <div className={classes.burgerMenuWrapper}>
-                <div onClick={toggleBurger} className={classes.burger}>
-                    <span></span>
-                </div>
+                {isOpen === true ?
+                     <div onClick={toggleBurger} className={classes.burgerActive}>
+                         <span className={classes.burgerActive_item1}></span>
+                         <span className={classes.burgerActive_item2}></span>
+                         <span className={classes.burgerActive_item3}></span>
+                     </div>
+                    : <div onClick={toggleBurger} className={classes.burger}>
+                        <span className={classes.burger_item1}></span>
+                        <span className={classes.burger_item2}></span>
+                        <span className={classes.burger_item3}></span>
+                    </div>}
                 {isOpen === true ?
                     <div className={classes.burgerMenuOpen}>
                         <BurgerNavigations />
