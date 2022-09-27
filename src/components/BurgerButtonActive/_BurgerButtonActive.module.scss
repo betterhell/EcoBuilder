@@ -1,0 +1,31 @@
+.burgerActive {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+
+  &_item1, &_item2, &_item3 {
+    position: absolute;
+    width: 24px;
+    height: 3px;
+    background-color: black;
+    transition: all 0.3s;
+  }
+
+  &_item1 {
+    top: 20px;
+    transform: rotate(45deg);
+  }
+
+  &_item2 {
+    opacity: 0;
+  }
+
+  &_item3 {
+    bottom: 20px;
+    transform: rotate(-45deg);
+  }
+}
