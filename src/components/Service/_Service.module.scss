@@ -11,9 +11,14 @@
 
 .serviceImg {
   img {
+    opacity: 0;
     max-width: 470px;
     width: 100%;
   }
+}
+
+.serviceImgVisible {
+  opacity: 1;
 }
 
 .serviceInfo {

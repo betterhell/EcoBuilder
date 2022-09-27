@@ -3,14 +3,16 @@ import {serviceList} from "./ServiceList";
 import Button from "../Button/Button";
 import classes from "./_Service.module.scss"
 
+
 class Service extends React.Component {
     constructor() {
         super();
         this.state = {
-            buttonLabel: "Learn more"
+            buttonLabel: "Learn more",
+            threshold: 0.5,
+            inView: false
         }
     }
-
 
     render() {
         return (
